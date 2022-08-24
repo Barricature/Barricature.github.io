@@ -28,3 +28,15 @@ nav a {
 nav :link {
     text-decoration: none;
 }
+
+div {
+    width: 100%;
+}
+
+ol {
+    margin: 30px 0 30px 100px;
+}
+
+.projects li {
+    margin: 10px auto;
+}
