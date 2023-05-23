@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+
+#Courses {
+    margin-top: 30px;;
+    width: 100%;
+    margin: 30px 0;
+}
+
+h3, p {
+    text-align: left;
+    padding: 0 0 0 30px;
+}
+
+h3 {
+    background-color: rgb(66, 163, 198);
+    line-height: 2em;
+}
+
+table {
+    width: 80%;
+    padding: 2em;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    font-size: large;
+    text-align: left;
+    line-height: 40px;
+}
+
+td {
+    padding: 5px 20px;
+    border: 1px solid black;
+}
