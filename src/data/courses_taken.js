@@ -1,4 +1,4 @@
-export const course = [
+export const courses_taken = [
     {
         "_id": "COMPSCI 121",
         "name": "Introduction to Problem Solving with Computers",

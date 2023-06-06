@@ -1,20 +1,16 @@
 import React from 'react';
-import navBar from './components/nav';
+import NavBar from './components/nav';
+import CourseBlock from './components/course';
 
 
 function App() {
     return (
-        <div>This is a test</div>
+        <>
+            <NavBar />
+            <CourseBlock />
+        </>
     );
 }
 
 export default App;
 
-/**
- * 
- * @param {Object} course {"_id": String, "name": String, "time_take": String}
- * @return {HTMLElement}
- */
-function renderCourse(course) {
-    return null;
-}

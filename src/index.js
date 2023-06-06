@@ -8,5 +8,5 @@ ReactDOM.render(
     <React.StrictMode>
         <App />
     </React.StrictMode>,
-    docum.getElementById('root')
+    document.getElementById('root')
 );
