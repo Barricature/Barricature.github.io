@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './routes/home';
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
-        path: "/",
-        element: <Home />
+        path: "/*",
+        element: <Home />,
     },
     {
         path: "/my_projects",
