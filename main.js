@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Course)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/nav */ \"./src/components/nav.js\");\n\n\nfunction Course() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_nav__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"This page is an evolving product that grows with my coding skills\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"In\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", {\n    href: \"https://github.com/Barricature/Barricature.github.io/tree/9e00ef03cf405017857e23f9779c9223f989aff2\"\n  }, \"2022\"), \"It was written in pure html and css\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"I have now updated the page to use \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", {\n    href: \"https://github.com/Barricature/Barricature.github.io\"\n  }, \"React\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"It is built with babel, webpack, gh-pages and react-router\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: \"../data/IrisChangSha.jpg\"\n  })));\n}\n\n//# sourceURL=webpack://barricature.github.io/./src/routes/home.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/nav */ \"./src/components/nav.js\");\n/* harmony import */ var _data_IrisChangSha_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/IrisChangSha.jpg */ \"./src/data/IrisChangSha.jpg\");\n\n\n\nfunction Home() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_nav__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"This page is an evolving product that grows with my coding skills\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"In\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", {\n    href: \"https://github.com/Barricature/Barricature.github.io/tree/9e00ef03cf405017857e23f9779c9223f989aff2\"\n  }, \"2022\"), \"It was written in pure html and css\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"I have now updated the page to use \", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"a\", {\n    href: \"https://github.com/Barricature/Barricature.github.io\"\n  }, \"React\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"p\", null, \"It is built with babel, webpack, gh-pages and react-router\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"img\", {\n    src: _data_IrisChangSha_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n  })));\n}\n\n//# sourceURL=webpack://barricature.github.io/./src/routes/home.jsx?");
 
 /***/ }),
 
@@ -157,6 +157,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://barricature.github.io/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/data/IrisChangSha.jpg":
+/*!***********************************!*\
+  !*** ./src/data/IrisChangSha.jpg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f9e6a9c6ad3d08ea9a584de27c851b83.jpg\");\n\n//# sourceURL=webpack://barricature.github.io/./src/data/IrisChangSha.jpg?");
 
 /***/ }),
 
@@ -394,6 +404,18 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -417,6 +439,29 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
