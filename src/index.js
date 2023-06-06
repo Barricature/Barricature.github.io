@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './routes/home';
+import Projects from './routes/projects';
+
 import {
     createHashRouter,
     RouterProvider,
@@ -9,12 +11,12 @@ import {
 
 const router = createHashRouter([
     {
-        path: "/*",
+        path: "/",
         element: <Home />,
     },
     {
-        path: "/my_projects",
-        element: <Home />
+        path: "my_projects",
+        element: <Projects />
     }
 ]);
 

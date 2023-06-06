@@ -2,7 +2,7 @@
   "type:": "module",
   "name": "barricature.github.io",
   "version": "1.0.0",
-  "homepage": "https://Barricature.github.io/#",
+  "homepage": "Barricature.github.io",
   "description": "",
   "main": "./src/index.js",
   "scripts": {
