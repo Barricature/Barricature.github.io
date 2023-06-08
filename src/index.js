@@ -5,6 +5,7 @@ import Home from './routes/home';
 import Projects from './routes/projects';
 import Courses from './routes/courses';
 import About from './routes/about';
+import Playground from './routes/playground';
 
 import {
     createHashRouter,
@@ -27,6 +28,10 @@ const router = createHashRouter([
     {
         path: "courses",
         element: <Courses />
+    },
+    {
+        path: "playground",
+        element: <Playground />
     }
 ]);
 
