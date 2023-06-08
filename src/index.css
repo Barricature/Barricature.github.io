@@ -8,6 +8,9 @@
     align-items: center;
     justify-items: center;
     margin: 20px;
+    line-height: 30px;
 }
 
-
+.page-body li {
+    list-style-type: circle;
+}
