@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import NavBar from "../components/nav";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from '@react-three/drei';
+import "./playground.css";
 
 export default function Playground() {
     const ref = useRef();
@@ -10,7 +11,8 @@ export default function Playground() {
     return (
         <>
             <NavBar />
-            <div id="canvas-container">
+            <p style={{"text-align": "center", "margin-top": "20px"}}>Music I'm listening to</p>
+            {/* <div id="canvas-container">
                 <Canvas>
                     <ambientLight intensity={0.1} />
                     <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
@@ -27,7 +29,8 @@ export default function Playground() {
                     </mesh>
                     <OrbitControls />
                 </Canvas>
-            </div>
+            </div> */}
+            <iframe allow={"autoplay *; encrypted-media *; fullscreen *; clipboard-write"} frameborder={0} height={450} style={{"width": "100%", "max-width": "660px", "overflow": "hidden", "border-radius": "10px"}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/a-flower-bookmark-pt-2-ep/1288487936"></iframe>
         </>
     )
 }
