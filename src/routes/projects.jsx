@@ -16,7 +16,7 @@ export default function Projects() {
                         </p>
                     </li>
                     <li>
-                        <a href='https://github.com/orgs/HackF22/repositories'>Course Planner</a>
+                        <a href='https://devpost.com/software/course-planner-o9hgf6'>Course Planner</a>
                         <p>
                             Course Planner is a project that I initiated in Sophmore year. It provides visual demonstration to the course selection process,
                             and allows students to check for prerequisites before choosing their courses.
