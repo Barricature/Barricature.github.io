@@ -1,14 +1,14 @@
 # Basic Information 
 title: Iris Xia
-position: Master Student
-affiliation: Yale University
-email: iris.xia@yale.edu
+position: Ph.D. Student
+affiliation: UMass Amherst
+email: yuhongxia@umass.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 title: "Iris Xia"
-description: "Iris Xia, 2nd year Master's student in Computer Science at Yale University. Research in computer vision, depth estimation, fairness-aware optimization, and medical AI."
-keywords: "Iris Xia, Yale, Computer Vision, Depth Estimation, AI Research, Machine Learning"
+description: "Iris Xia, first-year PhD student in Computer Science at UMass Amherst, advised by Subhransu Maji. Research in computer vision, particularly 3D perception and reconstruction."
+keywords: "Iris Xia, UMass Amherst, Subhransu Maji, Computer Vision, 3D Perception, 3D Reconstruction"
 url: "https://barricature.github.io"   # base URL of your site
 canonical: "https://barricature.github.io/"
 
